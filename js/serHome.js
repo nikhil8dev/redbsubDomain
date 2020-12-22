@@ -17,6 +17,7 @@ var firebaseConfig = {
   var serCase = document.getElementById("servCase")
 
 
+
   serOne.addEventListener('click',e =>{
 
     firebase.auth().onAuthStateChanged(data =>{

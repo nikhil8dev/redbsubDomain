@@ -30,10 +30,11 @@ signup.addEventListener('click',e => {
   const pass = password.value;
   const confPass = passConf.value;
   const auth = firebase.auth();
-
-  if(pass === confPass){
+// pass != 0
+  if(pass === confPass ){
   const promise = auth.createUserWithEmailAndPassword(email,pass);
   promise.catch(e=>console.log(e.message));
+  location.replace("sources.html")
   }else{
     passConfErr.innerText = 'Password don\'t match.'
     passerr.innerText = 'Password must be more than eight charecter long.'
@@ -47,7 +48,6 @@ signup.addEventListener('click',e => {
 firebase.auth().onAuthStateChanged(data =>{
   if(data){
     console.log(data)
-    location.replace("sources.html")
   }else{
     console.log('not log')
   }

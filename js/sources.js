@@ -22,8 +22,9 @@ var firebaseConfig = {
 
  var Submit = document.getElementById('btn');
 
- Submit.addEventListener('click', e => {
-      
+ Submit.addEventListener('click', e => { 
+     
+    alert('Thank you for choosing Us! One of our representative will get back to you shortly!')
     console.log(Industry.value)
 
     var Sources =  clientsRef.push();
@@ -36,3 +37,17 @@ var firebaseConfig = {
         Message: Message.value
     });
  })
+
+
+
+ 
+
+// firebase.auth().onAuthStateChanged(data =>{
+//     if(data){
+//       console.log(data)
+//       location.replace("sources.html")
+//     }else{
+//       console.log('not log')
+//     }
+//   })
+  

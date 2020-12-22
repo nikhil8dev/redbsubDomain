@@ -1,20 +1,22 @@
 
-.form{
-    
-    background: whitesmoke;
-    width: 40%;
-    height: 100vh;
-}
-
 .signform{
     display: flex;
     justify-content: center;
     
 }
 
+.form{
+    
+    background: whitesmoke;
+    padding: 20px;
+    height: 100vh;
+}
+
+
+
 
 .signup{
-margin-left: 4%;
+    margin-left: 4%;
     margin-top: 3pc;
     width: 30pc;
     height: 5%;
@@ -27,7 +29,7 @@ margin-left: 4%;
 
 .signup input{
     height: 100%;
-    width: 100%; 
+    width: 90%; 
     font-size: 1pc;
 
 }
@@ -40,8 +42,9 @@ margin-left: 4%;
 #btn{
     width: 100px;
     height: 30px;
-    margin-top: 3pc;
-    margin-left: 20px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 30px;
     border: 2px solid black;
      border-radius: 5px;
      padding-bottom: 30px;

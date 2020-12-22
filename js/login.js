@@ -40,5 +40,6 @@ firebase.auth().onAuthStateChanged(data =>{
       
     }else{
       console.log('not log')
+      success.innerText = 'Not Logged'
     }
   })
