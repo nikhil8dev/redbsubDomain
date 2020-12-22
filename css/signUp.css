@@ -1,0 +1,49 @@
+
+.form{
+    
+    background: whitesmoke;
+    width: 40%;
+    height: 100vh;
+}
+
+.signform{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.signup{
+margin-left: 4%;
+    margin-top: 3pc;
+    width: 30pc;
+    height: 5%;
+   
+}
+
+.signup span{
+    font-size: 20px;
+}
+
+.signup input{
+    height: 100%;
+    width: 100%; 
+    font-size: 1pc;
+
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+#btn{
+    width: 100px;
+    height: 30px;
+    margin-top: 3pc;
+    margin-left: 20px;
+    border: 2px solid black;
+     border-radius: 5px;
+     padding-bottom: 30px;
+    
+}

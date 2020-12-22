@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/sources.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div class="form">
+            <div class="source">
+                <span>Country</span>
+                <input type="text" id="country" placeholder="country" />
+            </div>
+
+            <div class="source">
+                <span>State</span>
+                <input type="text" id="state" placeholder="state" />
+            </div>
+        
+
+            <div class="source">
+               <span>Industry</span>
+                
+               <select id="industry">
+                <option value="">--Please choose an option--</option>
+                <option value="corporate"> Corporate</option>
+                <option value="education">Education</option>
+                <option value="entertainment">Entertainment</option>
+                <option value="food">Food</option>
+                <option value="government">Government</option>
+                <option value="healthcare">Healthcare</option>
+                <option value="Finance"> Finance / Investments</option>
+                <option value="hospitality">Hospitality</option>
+                <option value="insurance"> Insurance</option>
+                <option value="manufacturing">Manufacturing</option>
+                <option value="retail">Retail</option>
+                <option value="telecommunications">Telecommunications</option>
+                <option value="technology">Technology</option>
+                <option value="other">Other</option>
+            </select>
+            </div>
+
+            <div class="source"> 
+                <span>Company</span>
+                <input type="text" id="company" placeholder="company">
+            </div>
+
+            <div class="source">
+                <span>How did you hear about us?</span>
+                <select id="ref">
+                    <option value="referral">Referral</option>
+                    <option value="googlesearch">Google Search</option>
+                    <option value="event">Event / Conference</option>
+                    <option value="newspaper">News Paper</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="Instagram">Instagram</option>
+                    <option value="media">In the Media</option>
+                    <option value="advertisement">Advertisement</option>
+                    <option value="other">Others</option>
+                  </select>
+            </div>
+
+            <div class="source">
+                <span>Your Message</span>
+                <textarea  id="message" cols="20" rows="10"></textarea>
+            </div>
+
+            <button id="btn" >Submit</button>
+        </div>
+    </div>
+     
+    
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+    <script src="js/sources.js"> </script>
+  </body>
+</html>
